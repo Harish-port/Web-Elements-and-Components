@@ -1,0 +1,19 @@
+
+/* Primray : #e67e22 */
+/* Tints:
+Shades:
+Accents:
+Greys: 
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+}
