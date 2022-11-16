@@ -128,11 +128,14 @@ body {
 .grid--4-cols {
     grid-template-columns: repeat(4, 1fr);
 }
-
+.grid--5-cols {
+    grid-template-columns: repeat(5, 1fr);
+}
 .grid--center-v {
     align-items: center;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
     display: inline-block;
@@ -143,12 +146,27 @@ body {
     font-weight: 600;
     /* Put transition on original state */
     transition: all 0.3s;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
 }
 
 .btn--full:hover,
 .btn--full:active {
     background-color: #cf711f;
 
+}
+
+.btn-form {
+    background-color: #45260a;
+    color: #fdf2e9;
+    align-self: end;
+    padding: 1.2rem;
+}
+
+.btn-form:hover {
+    background-color: #fff;
+    color: #555;
 }
 
 .link:link,
@@ -159,6 +177,11 @@ body {
     border-bottom: 1px solid currentColor;
     padding-bottom: 2px;
     transition: all 0.3s;
+}
+
+*:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
 
 .link:hover,
@@ -174,10 +197,11 @@ body {
 .margin-bottom-md {
     margin-bottom: 4.8rem !important;
 }
-.center-text{
+
+.center-text {
     text-align: center;
 }
 
-strong{
+strong {
     font-weight: 500;
 }
